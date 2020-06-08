@@ -1,0 +1,99 @@
+.main{
+
+  height: 100vh;
+  padding: 10px;
+}
+
+.firstSection{
+  display: flex;
+  justify-content: space-between;
+}
+.firstSection button{
+  height: 40px;
+  cursor: pointer;
+}
+.secondSection{
+  padding: 10px;
+  width: 100%;
+  border: .5px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+}
+.secondSection span
+{
+  margin: 5px 10px;
+  font-size: 12px;
+
+}
+.secondSection input
+{
+ width: 160px;
+
+}
+.searchArea{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -38px;
+  margin-right: 10px;
+}
+.searchIcon{
+  font-size: 1em;
+  position: absolute;
+  margin-top: 5px;
+  margin-right: -25px;
+  z-index: 5;
+
+}
+
+.searchInput
+{
+ margin-top: 12px;
+}
+.thirdSection{
+  margin-top: 10px;
+}
+.leftSide{
+  width: 30%;
+
+}
+.rightSide{
+  width: 70%;
+
+
+}
+.fieldset{
+  padding: 5px;
+  width: 200px;
+
+
+}
+.fourthSection{
+  width:100%;
+  display: flex;
+margin-top: 10px;
+border:1px solid #000;
+  flex-wrap: wrap;
+}
+.fourthSection div {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.nameLegend{
+  margin-top: -15px;
+  background-color: #FFF;
+}
+.searchIcon{
+  font-size: 1em;
+  margin-right: -25px;
+  position: absolute;
+  z-index: 4;
+  margin-top: 5px;
+}
+.inputRadius{
+  border-radius: 170px;
+  position: relative;
+}
+
